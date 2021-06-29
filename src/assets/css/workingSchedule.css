@@ -1,0 +1,37 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#table {
+    position: -webkit-sticky;
+    float: left;
+    background-color: white;
+    position: sticky;
+    left: 0;
+    z-index: 100;
+}
+
+#schedule {
+    width: 2900px;
+}
+
+.sticky-ht {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 50;
+}
+
+.bua {
+    color: white;
+}
+
+/* #time {
+    overflow: hidden;
+    width: 100px !important;
+} */
